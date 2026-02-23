@@ -15,7 +15,7 @@ Define a consistent path for triage, escalation, and resolution across SynapseWo
 1. Capture scope: product (`Synapse`, `Decision Register`, or `Platform`) and expected outcome.
 2. Capture evidence: issue keys, timestamps, selected filters, and any error text.
 3. Confirm behaviour against the relevant documentation page.
-4. Raise a support request through your standard SynapseWorks support channel or Marketplace support path, including captured evidence.
+4. Raise a support request through [SynapseWorks Support](https://synapseworks.org/support/) or the Marketplace support path, including captured evidence.
 5. Record workaround and resolution in your internal runbook.
 
 ## Common issues

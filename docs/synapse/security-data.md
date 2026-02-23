@@ -31,8 +31,8 @@ Provide a clear security and data-handling view for enterprise review.
 - Creation status outputs in UI (created keys and errors)
 
 ## Runtime and auth model
-- Runs as a Forge app with Forge Remote integration
-- Uses FIT and `appUserToken` for remote calls
+- Runs as a Forge app in the Atlassian-hosted runtime (Runs on Atlassian eligible)
+- No Azure backend dependency
 - Uses minimal scopes: `read:jira-work`, `write:jira-work`, `read:app-user-token`
 - Jira credentials are not stored
 

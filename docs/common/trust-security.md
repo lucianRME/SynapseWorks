@@ -42,7 +42,8 @@ Security and compliance are a shared responsibility:
   - Creation status output in UI (created keys and errors)
 - Storage/runtime notes:
   - Auto-generate preference in browser `localStorage`
-  - Forge Remote integration using FIT and `appUserToken`
+  - Atlassian-hosted Forge runtime (Runs on Atlassian eligible)
+  - No Azure backend dependency
   - Redacted logs for sensitive fields
 
 ### Decision Register
@@ -62,7 +63,7 @@ Security and compliance are a shared responsibility:
 - Decision Register is read-only against Jira issue data.
 
 ## Privacy policy
-- SynapseWorks Privacy Policy: https://synapseworks.org/privacy/
+- [SynapseWorks Privacy Policy](https://synapseworks.org/privacy/)
 
 ## Example review checklist
 - Confirm required scopes match your approved access model.
