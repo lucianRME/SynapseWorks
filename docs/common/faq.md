@@ -40,6 +40,7 @@ No. Jira credentials are not stored.
 
 ## Related pages
 - [Documentation index](../index.md)
+- [Trust and security overview](trust-security.md)
 - [Support](support.md)
 - [Synapse security and data](../synapse/security-data.md)
 - [Decision Register security and data](../decision-register/security-data.md)

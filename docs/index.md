@@ -44,6 +44,7 @@ Provide a practical, vendor-grade reference for setup, operation, data handling,
 - [Platform overview (SaaS)](saas/overview.md)
 - [Platform pipeline (SaaS)](saas/pipeline.md)
 - [Platform security and data (SaaS)](saas/security-data.md)
+- [Trust and security overview](common/trust-security.md)
 - [FAQ](common/faq.md)
 - [Support](common/support.md)
 - [Release notes](common/release-notes.md)
