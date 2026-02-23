@@ -1,7 +1,7 @@
 # FAQ
 
 ## Purpose
-Answer common cross-product questions for Synapse, Decision Register, and the Synapse platform pages.
+Answer common cross-product questions for Synapse and Decision Register.
 
 ## Who it is for
 - Jira administrators
@@ -13,7 +13,7 @@ Answer common cross-product questions for Synapse, Decision Register, and the Sy
 - Access to your Jira site for product checks
 
 ## Steps
-1. Check product scope first: Synapse and Decision Register are Marketplace apps, while `docs/saas/*` describes the Synapse platform track.
+1. Check product scope first: use the Synapse or Decision Register sections based on the app you are reviewing.
 2. Match your question to setup, workflow, export, or security/data topics.
 3. If unresolved, follow the support process in [Support](support.md).
 
@@ -35,7 +35,7 @@ Synapse can create subtasks from generated requirement previews.
 No. Jira credentials are not stored.
 
 ## Common issues
-- "Feature mismatch": verify whether you are reading app docs (`docs/synapse/*`, `docs/decision-register/*`) or platform docs (`docs/saas/*`).
+- "Feature mismatch": verify whether you are reading the correct app docs (`docs/synapse/*` or `docs/decision-register/*`).
 - "Permission errors": confirm Jira project permissions and app installation state.
 
 ## Related pages
@@ -44,4 +44,3 @@ No. Jira credentials are not stored.
 - [Support](support.md)
 - [Synapse security and data](../synapse/security-data.md)
 - [Decision Register security and data](../decision-register/security-data.md)
-- [Platform security and data](../saas/security-data.md)

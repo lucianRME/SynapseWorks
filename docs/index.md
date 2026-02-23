@@ -1,6 +1,6 @@
 # SynapseWorks Documentation
 
-This documentation covers SynapseWorks Atlassian Marketplace apps and the Synapse platform documentation track.
+This documentation covers SynapseWorks Atlassian Marketplace apps.
 
 ## Purpose
 Provide a practical, vendor-grade reference for setup, operation, data handling, and support.
@@ -23,7 +23,7 @@ Provide a practical, vendor-grade reference for setup, operation, data handling,
 5. Use the common FAQ, support, and release notes pages for ongoing operation.
 
 ## Common issues
-- "I cannot find a feature in the app": confirm whether it belongs to a Marketplace app or to the Synapse platform pages.
+- "I cannot find a feature in the app": confirm whether it belongs to Synapse or Decision Register documentation.
 - "I need governance evidence": use Decision Register outputs and security/data pages for audit context.
 - "I need AI consistency, not only suggestions": Synapse complements Atlassian AI/Rovo by enforcing consistent execution structure (subtasks plus validation), rather than only generating suggestions.
 
@@ -41,9 +41,6 @@ Provide a practical, vendor-grade reference for setup, operation, data handling,
 - [Decision Register export](decision-register/export.md)
 - [Decision Register security and data](decision-register/security-data.md)
 - [Decision Register troubleshooting](decision-register/troubleshooting.md)
-- [Platform overview (SaaS)](saas/overview.md)
-- [Platform pipeline (SaaS)](saas/pipeline.md)
-- [Platform security and data (SaaS)](saas/security-data.md)
 - [Trust and security overview](common/trust-security.md)
 - [FAQ](common/faq.md)
 - [Support](common/support.md)

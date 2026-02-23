@@ -32,7 +32,7 @@ Provide a clear security and data-handling view for enterprise review.
 
 ## Runtime and auth model
 - Runs as a Forge app in the Atlassian-hosted runtime (Runs on Atlassian eligible)
-- No Azure backend dependency
+- Synapse runs fully on Atlassian Forge with no external backend or external storage.
 - Uses minimal scopes: `read:jira-work`, `write:jira-work`, `read:app-user-token`
 - Jira credentials are not stored
 

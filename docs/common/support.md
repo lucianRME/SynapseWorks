@@ -12,7 +12,7 @@ Define a consistent path for triage, escalation, and resolution across SynapseWo
 - Access to app output relevant to the issue (for example run results or creation results)
 
 ## Steps
-1. Capture scope: product (`Synapse`, `Decision Register`, or `Platform`) and expected outcome.
+1. Capture scope: product (`Synapse` or `Decision Register`) and expected outcome.
 2. Capture evidence: issue keys, timestamps, selected filters, and any error text.
 3. Confirm behaviour against the relevant documentation page.
 4. Raise a support request through [SynapseWorks Support](https://synapseworks.org/support/) or the Marketplace support path, including captured evidence.
@@ -21,7 +21,7 @@ Define a consistent path for triage, escalation, and resolution across SynapseWo
 ## Common issues
 - Missing issue keys or timestamps can delay diagnosis.
 - Screenshots alone are often insufficient without filter and mode details.
-- Mixed product context (app vs platform) can lead to incorrect routing.
+- Mixed product context (Synapse vs Decision Register) can lead to incorrect routing.
 
 ## Related pages
 - [Documentation index](../index.md)

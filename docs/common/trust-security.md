@@ -43,7 +43,7 @@ Security and compliance are a shared responsibility:
 - Storage/runtime notes:
   - Auto-generate preference in browser `localStorage`
   - Atlassian-hosted Forge runtime (Runs on Atlassian eligible)
-  - No Azure backend dependency
+  - No external backend or external storage for Synapse
   - Redacted logs for sensitive fields
 
 ### Decision Register

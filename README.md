@@ -1,11 +1,14 @@
 # SynapseWorks Documentation
 
-This repository contains GitBook-ready Markdown documentation for SynapseWorks products:
-- Synapse (Atlassian Marketplace app)
-- Decision Register (Atlassian Marketplace app)
-- Synapse platform documentation track (`docs/saas/*`)
+This repository contains GitBook-ready Markdown documentation for SynapseWorks Atlassian Marketplace apps.
+Synapse runs fully on Atlassian Forge with no external backend or external storage.
 
-Start here: [docs/index.md](docs/index.md)
+## Documentation
+- [GitBook documentation site](https://synapseworks.gitbook.io/synapseworks-docs/)
+- [Documentation index](docs/index.md)
+- [Synapse Forge overview](docs/synapse/overview.md)
+- [Decision Register overview](docs/decision-register/overview.md)
+- [Trust & Security Overview](docs/common/trust-security.md)
 
 ## Publish with GitBook
 
@@ -30,4 +33,3 @@ Provide a simple process to publish this repository to GitBook.
 ## Common issues
 - Wrong content root can hide pages; ensure `docs/` is selected.
 - Broken relative links are usually caused by file moves without link updates.
-- Mixing Marketplace app content with platform-only content can confuse readers; keep scope labels clear.
