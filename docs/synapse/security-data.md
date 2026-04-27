@@ -48,3 +48,4 @@ Provide a clear security and data-handling view for enterprise review.
 - [Overview](overview.md)
 - [Configuration](configuration.md)
 - [Troubleshooting](troubleshooting.md)
+- [Synapse for Jira product page](https://synapseworks.org/apps/synapse/)

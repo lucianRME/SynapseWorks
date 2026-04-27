@@ -1,13 +1,15 @@
 # SynapseWorks Documentation
 
-This repository contains GitBook-ready Markdown documentation for SynapseWorks Atlassian Marketplace apps.
-Synapse runs fully on Atlassian Forge with no external backend or external storage.
+This repository contains GitBook-ready Markdown documentation for the SynapseWorks product portfolio.
+
+SynapseWorks builds privacy-first workflow tools for Jira teams and safer everyday web use. Synapse and Decision Register are Jira/Atlassian products. Submit Guard is a Chrome extension.
 
 ## Documentation
 - [GitBook documentation site](https://synapseworks.gitbook.io/synapseworks-docs/)
 - [Documentation index](docs/index.md)
 - [Synapse Forge overview](docs/synapse/overview.md)
 - [Decision Register overview](docs/decision-register/overview.md)
+- [Submit Guard overview](docs/submit-guard/overview.md)
 - [Trust & Security Overview](docs/common/trust-security.md)
 
 ## Publish with GitBook

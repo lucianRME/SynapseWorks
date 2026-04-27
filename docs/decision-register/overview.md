@@ -12,6 +12,9 @@ Explain how Decision Register creates an audit-style history from Jira issue cha
 - Decision Register app installed on Jira Cloud
 - Access to Jira projects and issue history data
 
+## Product page
+Website: [Decision Register for Jira](https://synapseworks.org/apps/decision-register/)
+
 ## Steps
 1. Open Decision Register from the Jira Global Page or Admin Page.
 2. Configure run filters for scope and period.

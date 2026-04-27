@@ -44,3 +44,4 @@ Provide enterprise trust information for Decision Register data access, storage,
 - [Overview](overview.md)
 - [Configuration](configuration.md)
 - [Troubleshooting](troubleshooting.md)
+- [Decision Register for Jira product page](https://synapseworks.org/apps/decision-register/)

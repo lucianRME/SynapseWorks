@@ -6,16 +6,17 @@ Provide a standard format for documenting functional changes, fixes, and operati
 ## Who it is for
 - Product and release managers
 - Jira administrators tracking behavioural changes
+- Browser extension users and reviewers tracking behavioural changes
 - Security reviewers tracking data-handling-impacting changes
 
 ## Prerequisites
 - Confirmed change scope and deployment date
-- Validation evidence (test notes, dry-run output, or production observation)
+- Validation evidence (test notes, dry-run output, extension test result, or production observation)
 
 ## Steps
 1. Create a new entry using the template below.
 2. List only verified changes and clearly label behavioural impact.
-3. Add any security/data impact with links to the relevant security page.
+3. Add any security/data/privacy impact with links to the relevant product page.
 4. Publish the update in GitBook after review.
 
 ## Entry template
@@ -45,3 +46,4 @@ Provide a standard format for documenting functional changes, fixes, and operati
 ## Related pages
 - [Documentation index](../index.md)
 - [Support](support.md)
+- [Submit Guard overview](../submit-guard/overview.md)

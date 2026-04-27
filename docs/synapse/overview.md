@@ -13,6 +13,9 @@ Explain what the Synapse Jira issue panel does and where it fits in delivery wor
 - Access to Jira issues where the panel is available
 - Permission to create subtasks if using create-subtasks mode
 
+## Product page
+Website: [Synapse for Jira](https://synapseworks.org/apps/synapse/)
+
 ## Steps
 1. Open a Jira issue and load the embedded Synapse issue panel.
 2. Generate a requirements preview using issue context.
