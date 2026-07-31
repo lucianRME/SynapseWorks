@@ -24,6 +24,7 @@ Provide a single trust and security overview for the SynapseWorks product portfo
 - [Synapse security and data](../synapse/security-data.md)
 - [Decision Register security and data](../decision-register/security-data.md)
 - [Submit Guard privacy](../submit-guard/privacy.md)
+- [PageHarbor privacy and support](../pageharbor/privacy-and-support.md)
 
 ## Privacy and compliance statement
 SynapseWorks provides privacy-first workflow tools with documented product-specific data handling.
@@ -82,15 +83,32 @@ Submit Guard is a Chrome extension. It is not a Jira app and does not run on Atl
   - Form contents are not sent to SynapseWorks
   - Form contents are not stored by the extension
 
+### Android Apps
+PageHarbor is an Android document scanner preparing for internal testing. It is not publicly available on Google Play.
+
+### PageHarbor
+- Data processed locally:
+  - Scan images, OCR text, and searchable-PDF text layers
+- Storage and export:
+  - Temporary app-private processing or share files may be created
+  - Final destinations are selected by the user through Android SAF
+  - PDF shares are sent only after the user selects a target in Android Sharesheet
+- Runtime notes:
+  - No PageHarbor account, ads, analytics, tracking, backend, or persistent document library
+  - No direct `INTERNET` permission or direct camera permission request by PageHarbor
+  - Google ML Kit may transmit encrypted technical diagnostics; this is not PageHarbor analytics and does not include document content
+
 ## Credential handling confirmation
 - Jira credentials are not stored by SynapseWorks Jira apps.
 - Sensitive credentials are not stored externally by SynapseWorks Jira apps.
 - Decision Register is read-only against Jira issue data.
 - Submit Guard does not require a SynapseWorks account and does not send form contents to SynapseWorks.
+- PageHarbor does not operate a document backend or persistent document library.
 
 ## Privacy policy
 - [SynapseWorks Privacy Policy](https://synapseworks.org/privacy/)
 - [Submit Guard Privacy Policy](https://synapseworks.org/privacy/submit-guard/)
+- [PageHarbor Privacy Policy](https://synapseworks.org/pageharbor/privacy/)
 
 ## Example review checklist
 - Confirm required Jira scopes or browser permissions match your approved access model.
@@ -99,6 +117,7 @@ Submit Guard is a Chrome extension. It is not a Jira app and does not run on Atl
   - Synapse may create subtasks.
   - Decision Register does not write to Jira issue data.
   - Submit Guard confirms browser submissions locally and does not send form contents to SynapseWorks.
+  - PageHarbor processes document content locally and uses user-selected Android destinations for saving or sharing.
 
 ## Common issues
 - Teams review app pages in isolation and miss shared governance expectations.

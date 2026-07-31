@@ -9,12 +9,14 @@ Provide a practical, vendor-grade reference for setup, operation, data handling,
 - Jira administrators deploying SynapseWorks Jira apps
 - Delivery leads who need repeatable issue execution and decision traceability
 - Browser users who want an extra confirmation step before submitting forms
+- Android users evaluating local document scanning, OCR, and export
 - Compliance, risk, and security teams reviewing data handling
 
 ## Prerequisites
 - For Jira apps: a Jira Cloud site with the required SynapseWorks app installed
 - For browser tools: Chrome or a Chromium-based browser with the relevant extension installed
-- Access to the relevant Jira projects, issues, browser sites, or test forms for the product you are reviewing
+- For PageHarbor: Android 8 (API 26) or later and an approved internal-testing build
+- Access to the relevant Jira projects, issues, browser sites, Android device, or test forms for the product you are reviewing
 
 ## Steps
 1. Start with the relevant product group below.
@@ -37,11 +39,18 @@ Submit Guard is a Chrome extension for safer everyday web use. It is not a Jira 
 - [Submit Guard overview](submit-guard/overview.md) - confirm before submitting forms on sites you enable.
 - Website: [Submit Guard product page](https://synapseworks.org/products/submit-guard/).
 
+### Android Apps
+PageHarbor is an Android document scanner for approved internal testing. It is not publicly available on Google Play.
+
+- [PageHarbor overview](pageharbor/overview.md) - local scanning, OCR, and document export.
+- Website: [PageHarbor product page](https://synapseworks.org/pageharbor/).
+
 ## Common issues
-- "I cannot find a feature in the app": confirm whether it belongs to Synapse, Decision Register, or Submit Guard documentation.
+- "I cannot find a feature in the app": confirm whether it belongs to Synapse, Decision Register, Submit Guard, or PageHarbor documentation.
 - "I need governance evidence": use Decision Register outputs and security/data pages for audit context.
 - "I need AI consistency, not only suggestions": Synapse complements Atlassian AI/Rovo by enforcing consistent execution structure (subtasks plus validation), rather than only generating suggestions.
 - "I need browser-submit protection": use Submit Guard documentation, not the Jira app documentation.
+- "I need document scanning or OCR": use PageHarbor documentation, not the Jira app or browser-extension documentation.
 
 ## Navigation
 ### Jira Apps
@@ -65,6 +74,12 @@ Submit Guard is a Chrome extension for safer everyday web use. It is not a Jira 
 - [Submit Guard how it works](submit-guard/how-it-works.md)
 - [Submit Guard privacy](submit-guard/privacy.md)
 - [Submit Guard troubleshooting](submit-guard/troubleshooting.md)
+
+### Android Apps
+- [PageHarbor overview](pageharbor/overview.md)
+- [PageHarbor getting started](pageharbor/getting-started.md)
+- [PageHarbor scanning and export workflow](pageharbor/workflow.md)
+- [PageHarbor privacy and support](pageharbor/privacy-and-support.md)
 
 ### Common
 - [Trust and security overview](common/trust-security.md)

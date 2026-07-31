@@ -2,7 +2,7 @@
 
 This repository contains GitBook-ready Markdown documentation for the SynapseWorks product portfolio.
 
-SynapseWorks builds privacy-first workflow tools for Jira teams and safer everyday web use. Synapse and Decision Register are Jira/Atlassian products. Submit Guard is a Chrome extension.
+SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday web use, and local Android document handling. Synapse and Decision Register are Jira/Atlassian products, Submit Guard is a Chrome extension, and PageHarbor is an Android document scanner preparing for internal testing.
 
 ## Documentation
 - [GitBook documentation site](https://synapseworks.gitbook.io/synapseworks-docs/)
@@ -10,6 +10,7 @@ SynapseWorks builds privacy-first workflow tools for Jira teams and safer everyd
 - [Synapse Forge overview](docs/synapse/overview.md)
 - [Decision Register overview](docs/decision-register/overview.md)
 - [Submit Guard overview](docs/submit-guard/overview.md)
+- [PageHarbor overview](docs/pageharbor/overview.md)
 - [Trust & Security Overview](docs/common/trust-security.md)
 
 ## Publish with GitBook
