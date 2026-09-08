@@ -28,7 +28,7 @@ Provide a simple process to publish this repository to GitBook.
 
 ## Steps
 1. Connect the repository to GitBook using Git Sync.
-2. Use the repository-root `.gitbook.yaml`: it sets `docs/` as the content root and `docs/index.md` as the entry point. Keep the Git Sync project directory at the repository root so GitBook reads this configuration.
+2. Preserve the published space's existing `./docs` Git Sync mapping. Its configuration is `docs/.gitbook.yaml`, with `root: ./` and `index.md` as the entry point. The repository-root `.gitbook.yaml` supports the existing root-level sync with `root: ./docs/`.
 3. GitBook derives the sidebar from the documentation folders and page titles; `docs/index.md` also provides the product navigation.
 4. Validate internal links after each update.
 5. Publish changes from GitBook once review is complete.
@@ -36,6 +36,6 @@ Provide a simple process to publish this repository to GitBook.
 ## Common issues
 - Wrong content root can hide pages; ensure `docs/` is selected.
 - Broken relative links are usually caused by file moves without link updates.
-- `.gitbook.yaml` maps the former `pageharbor` landing route and its four child routes directly to their RME PDF Scanner destinations using [GitBook-supported redirects](https://gitbook.com/docs/getting-started/git-sync/content-configuration). Preserve these compatibility rules when moving pages again.
+- Both `.gitbook.yaml` files map the former `pageharbor` landing route and its four child routes directly to their RME PDF Scanner destinations using [GitBook-supported redirects](https://gitbook.com/docs/docs-as-code/git-sync/content-configuration). Keep their redirect maps identical and preserve these compatibility rules when moving pages again.
 - After pushing to the connected branch, confirm Git Sync has imported the commit. If the published site has not updated, open the SynapseWorks Docs space in GitBook, review the synced content, and publish it to the existing site. Check both the canonical RME PDF Scanner routes and the legacy redirects.
 - This Markdown-only repository has no configured build, test runner, or link checker. Validate relative Markdown links, GitBook redirect targets, and `git diff --check` before publishing.

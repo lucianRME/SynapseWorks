@@ -1,0 +1,11 @@
+root: ./
+
+structure:
+  readme: index.md
+
+redirects:
+  pageharbor: rme-pdf-scanner/README.md
+  pageharbor/overview: rme-pdf-scanner/overview.md
+  pageharbor/getting-started: rme-pdf-scanner/getting-started.md
+  pageharbor/workflow: rme-pdf-scanner/workflow.md
+  pageharbor/privacy-and-support: rme-pdf-scanner/privacy-and-support.md
