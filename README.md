@@ -2,7 +2,7 @@
 
 This repository contains GitBook-ready Markdown documentation for the SynapseWorks product portfolio.
 
-SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday web use, and local Android document handling. Synapse and Decision Register are Jira/Atlassian products, Submit Guard is a Chrome extension, and PageHarbor is an Android document scanner preparing for internal testing.
+SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday web use, and local Android document handling. Synapse and Decision Register are Jira/Atlassian products, Submit Guard is a Chrome extension, and RME: PDF & Document Scanner is a privacy-first Android document scanner publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor).
 
 ## Documentation
 - [GitBook documentation site](https://synapseworks.gitbook.io/synapseworks-docs/)
@@ -10,7 +10,7 @@ SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday 
 - [Synapse Forge overview](docs/synapse/overview.md)
 - [Decision Register overview](docs/decision-register/overview.md)
 - [Submit Guard overview](docs/submit-guard/overview.md)
-- [PageHarbor overview](docs/pageharbor/overview.md)
+- [RME PDF Scanner overview](docs/rme-pdf-scanner/overview.md)
 - [Trust & Security Overview](docs/common/trust-security.md)
 
 ## Publish with GitBook
@@ -28,11 +28,14 @@ Provide a simple process to publish this repository to GitBook.
 
 ## Steps
 1. Connect the repository to GitBook using Git Sync.
-2. Set `docs/` as the documentation root in your GitBook configuration.
-3. Use `docs/index.md` as the entry point for navigation.
+2. Use the repository-root `.gitbook.yaml`: it sets `docs/` as the content root and `docs/index.md` as the entry point. Keep the Git Sync project directory at the repository root so GitBook reads this configuration.
+3. GitBook derives the sidebar from the documentation folders and page titles; `docs/index.md` also provides the product navigation.
 4. Validate internal links after each update.
 5. Publish changes from GitBook once review is complete.
 
 ## Common issues
 - Wrong content root can hide pages; ensure `docs/` is selected.
 - Broken relative links are usually caused by file moves without link updates.
+- `.gitbook.yaml` maps the former `pageharbor` landing route and its four child routes directly to their RME PDF Scanner destinations using [GitBook-supported redirects](https://gitbook.com/docs/getting-started/git-sync/content-configuration). Preserve these compatibility rules when moving pages again.
+- After pushing to the connected branch, confirm Git Sync has imported the commit. If the published site has not updated, open the SynapseWorks Docs space in GitBook, review the synced content, and publish it to the existing site. Check both the canonical RME PDF Scanner routes and the legacy redirects.
+- This Markdown-only repository has no configured build, test runner, or link checker. Validate relative Markdown links, GitBook redirect targets, and `git diff --check` before publishing.

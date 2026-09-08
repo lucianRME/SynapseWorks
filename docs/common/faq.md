@@ -22,7 +22,7 @@ Answer common cross-product questions for SynapseWorks products.
 ### What product groups does SynapseWorks document?
 - Jira Apps: Synapse and Decision Register for Jira.
 - Browser Tools: Submit Guard Chrome extension.
-- Android Apps: PageHarbor Android document scanner.
+- Android Apps: RME: PDF & Document Scanner.
 
 ### Does Synapse replace Atlassian AI or Rovo?
 No. Synapse complements Atlassian AI/Rovo by enforcing consistent execution structure through subtasks and validation, instead of only providing suggestions.
@@ -44,17 +44,17 @@ No. Jira credentials are not stored by SynapseWorks Jira apps.
 ### Is Submit Guard a Jira or Atlassian product?
 No. Submit Guard is a Chrome extension for browser workflows.
 
-### Is PageHarbor publicly available on Google Play?
-No. PageHarbor `v0.8.0-dev` is preparing for internal testing and is not publicly available on Google Play.
+### Is RME PDF Scanner publicly available on Google Play?
+Yes. RME: PDF & Document Scanner is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). Current version: **1.2.0**. For installation and optional developer builds, see [Getting started](../rme-pdf-scanner/getting-started.md).
 
-### Does PageHarbor upload documents to SynapseWorks?
-No. PageHarbor processes document content on the device and has no PageHarbor backend or persistent document library. Files leave the app only when the user chooses an Android SAF destination or Android Sharesheet target.
+### Does RME PDF Scanner upload documents to SynapseWorks?
+No. RME PDF Scanner processes document content on the device and has no RME PDF Scanner backend or persistent document library. Files leave the app only when the user chooses an Android SAF destination or Android Sharesheet target.
 
 ### Does Submit Guard send form contents to SynapseWorks?
 No. Submit Guard is local-only, has no SynapseWorks backend, and does not send form contents to SynapseWorks.
 
 ## Common issues
-- "Feature mismatch": verify whether you are reading the correct product docs (`docs/synapse/*`, `docs/decision-register/*`, `docs/submit-guard/*`, or `docs/pageharbor/*`).
+- "Feature mismatch": verify whether you are reading the correct product docs (`docs/synapse/*`, `docs/decision-register/*`, `docs/submit-guard/*`, or `docs/rme-pdf-scanner/*`).
 - "Permission errors": confirm Jira project permissions and app installation state.
 - "Submit Guard does not appear": confirm the extension is installed and enabled for the current site.
 
@@ -65,4 +65,4 @@ No. Submit Guard is local-only, has no SynapseWorks backend, and does not send f
 - [Synapse security and data](../synapse/security-data.md)
 - [Decision Register security and data](../decision-register/security-data.md)
 - [Submit Guard privacy](../submit-guard/privacy.md)
-- [PageHarbor privacy and support](../pageharbor/privacy-and-support.md)
+- [RME PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)

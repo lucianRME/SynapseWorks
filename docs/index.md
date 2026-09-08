@@ -1,6 +1,6 @@
 # SynapseWorks Documentation
 
-SynapseWorks builds privacy-first workflow tools for Jira teams and safer everyday web use.
+SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday web use, and local Android document handling.
 
 ## Purpose
 Provide a practical, vendor-grade reference for setup, operation, data handling, and support across the SynapseWorks product portfolio.
@@ -15,7 +15,7 @@ Provide a practical, vendor-grade reference for setup, operation, data handling,
 ## Prerequisites
 - For Jira apps: a Jira Cloud site with the required SynapseWorks app installed
 - For browser tools: Chrome or a Chromium-based browser with the relevant extension installed
-- For PageHarbor: Android 8 (API 26) or later and an approved internal-testing build
+- For RME PDF Scanner: Android 8 (API 26) or later and RME PDF Scanner installed
 - Access to the relevant Jira projects, issues, browser sites, Android device, or test forms for the product you are reviewing
 
 ## Steps
@@ -40,17 +40,17 @@ Submit Guard is a Chrome extension for safer everyday web use. It is not a Jira 
 - Website: [Submit Guard product page](https://synapseworks.org/products/submit-guard/).
 
 ### Android Apps
-PageHarbor is an Android document scanner for approved internal testing. It is not publicly available on Google Play.
+RME: PDF & Document Scanner is a privacy-first Android document scanner with offline OCR, searchable PDFs, local processing, and user-controlled export. It is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). Current version: **1.2.0**.
 
-- [PageHarbor overview](pageharbor/overview.md) - local scanning, OCR, and document export.
-- Website: [PageHarbor product page](https://synapseworks.org/pageharbor/).
+- [RME PDF Scanner overview](rme-pdf-scanner/overview.md) - local scanning, OCR, and document export.
+- Website: [RME PDF Scanner product page](https://synapseworks.org/rme-pdf-scanner/).
 
 ## Common issues
-- "I cannot find a feature in the app": confirm whether it belongs to Synapse, Decision Register, Submit Guard, or PageHarbor documentation.
+- "I cannot find a feature in the app": confirm whether it belongs to Synapse, Decision Register, Submit Guard, or RME PDF Scanner documentation.
 - "I need governance evidence": use Decision Register outputs and security/data pages for audit context.
 - "I need AI consistency, not only suggestions": Synapse complements Atlassian AI/Rovo by enforcing consistent execution structure (subtasks plus validation), rather than only generating suggestions.
 - "I need browser-submit protection": use Submit Guard documentation, not the Jira app documentation.
-- "I need document scanning or OCR": use PageHarbor documentation, not the Jira app or browser-extension documentation.
+- "I need document scanning or OCR": use RME PDF Scanner documentation, not the Jira app or browser-extension documentation.
 
 ## Navigation
 ### Jira Apps
@@ -76,10 +76,10 @@ PageHarbor is an Android document scanner for approved internal testing. It is n
 - [Submit Guard troubleshooting](submit-guard/troubleshooting.md)
 
 ### Android Apps
-- [PageHarbor overview](pageharbor/overview.md)
-- [PageHarbor getting started](pageharbor/getting-started.md)
-- [PageHarbor scanning and export workflow](pageharbor/workflow.md)
-- [PageHarbor privacy and support](pageharbor/privacy-and-support.md)
+- [RME PDF Scanner overview](rme-pdf-scanner/overview.md)
+- [RME PDF Scanner getting started](rme-pdf-scanner/getting-started.md)
+- [RME PDF Scanner scanning and export workflow](rme-pdf-scanner/workflow.md)
+- [RME PDF Scanner privacy and support](rme-pdf-scanner/privacy-and-support.md)
 
 ### Common
 - [Trust and security overview](common/trust-security.md)

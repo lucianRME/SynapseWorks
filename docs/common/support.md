@@ -13,7 +13,7 @@ Define a consistent path for triage, escalation, and resolution across SynapseWo
 - Access to app or extension output relevant to the issue
 
 ## Steps
-1. Capture scope: product (`Synapse`, `Decision Register`, `Submit Guard`, or `PageHarbor`) and expected outcome.
+1. Capture scope: product (`Synapse`, `Decision Register`, `Submit Guard`, or `RME PDF Scanner`) and expected outcome.
 2. Capture evidence relevant to the product.
 3. Confirm behaviour against the relevant documentation page.
 4. Raise a support request through [SynapseWorks Support](https://synapseworks.org/support/) or, for Jira apps, the Marketplace support path, including captured evidence.
@@ -33,9 +33,9 @@ Define a consistent path for triage, escalation, and resolution across SynapseWo
 - Whether Submit Guard is enabled for the current site
 - Screenshots with sensitive form contents redacted
 
-### PageHarbor
+### RME PDF Scanner
 - Android version and device model
-- PageHarbor version and build type
+- RME PDF Scanner version and build type
 - Whether the issue occurred during scanning, saving, sharing, OCR, or searchable-PDF generation
 - Redacted error text and safe reproduction steps
 
@@ -50,4 +50,4 @@ Do not send passwords, tokens, session cookies, MFA codes, or sensitive form con
 - [Documentation index](../index.md)
 - [FAQ](faq.md)
 - [Release notes](release-notes.md)
-- [PageHarbor privacy and support](../pageharbor/privacy-and-support.md)
+- [RME PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)
