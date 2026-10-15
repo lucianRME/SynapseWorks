@@ -45,10 +45,13 @@ No. Jira credentials are not stored by SynapseWorks Jira apps.
 No. Submit Guard is a Chrome extension for browser workflows.
 
 ### Is RME PDF Scanner publicly available on Google Play?
-Yes. RME: PDF & Document Scanner is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). Current version: **1.2.0**. For installation and optional developer builds, see [Getting started](../rme-pdf-scanner/getting-started.md).
+Yes. RME: PDF & Document Scanner is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). The current stable version is **1.7.1**. The latest stable APK is also available from [GitHub Releases](https://github.com/lucianRME/rme-pdf-scanner/releases/latest). For signing-channel and backup guidance, see [Getting started](../rme-pdf-scanner/getting-started.md).
 
 ### Does RME PDF Scanner upload documents to SynapseWorks?
-No. RME PDF Scanner processes document content on the device and has no RME PDF Scanner backend or persistent document library. Files leave the app only when the user chooses an Android SAF destination or Android Sharesheet target.
+No. RME PDF Scanner processes document content on the device and has no proprietary document backend or cloud library. A user can explicitly save documents in an app-private local library. Files leave the app only when the user chooses an Android SAF destination or Android Sharesheet target.
+
+### Can I move my RME library to another installation or phone?
+Yes. Create a portable RME backup, optionally protect it with a password, and choose its destination through Android's system file picker. Confirm that you can access the backup before uninstalling or changing between the differently signed Google Play and GitHub APK channels.
 
 ### Does Submit Guard send form contents to SynapseWorks?
 No. Submit Guard is local-only, has no SynapseWorks backend, and does not send form contents to SynapseWorks.

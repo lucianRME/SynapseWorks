@@ -36,10 +36,11 @@ Define a consistent path for triage, escalation, and resolution across SynapseWo
 ### RME PDF Scanner
 - Android version and device model
 - RME PDF Scanner version and build type
-- Whether the issue occurred during scanning, saving, sharing, OCR, or searchable-PDF generation
+- Installation channel: Google Play, GitHub Release, or development build
+- Whether the issue occurred during scanning, import, library save/search/delete, OCR, a document tool, export/share, backup, or restore
 - Redacted error text and safe reproduction steps
 
-Do not send passwords, tokens, session cookies, MFA codes, or sensitive form contents.
+Do not send passwords, backup passwords, tokens, session cookies, MFA codes, sensitive documents or OCR text, or sensitive form contents.
 
 ## Common issues
 - Missing issue keys or timestamps can delay diagnosis.

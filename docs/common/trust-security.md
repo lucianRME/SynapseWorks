@@ -88,22 +88,25 @@ RME: PDF & Document Scanner is a privacy-first Android document scanner publicly
 
 ### RME PDF Scanner
 - Data processed locally:
-  - Scan images, OCR text, and searchable-PDF text layers
+  - Scanned or imported pages, OCR text, searchable-PDF text layers, document-tool outputs, and portable backups
 - Storage and export:
+  - Saved documents, thumbnails, metadata, folders, and optional OCR text can remain in an app-private local library
   - Temporary app-private processing or share files may be created
   - Final destinations are selected by the user through Android SAF
-  - PDF shares are sent only after the user selects a target in Android Sharesheet
+  - Files are shared only after the user selects a target in Android Sharesheet
+  - Android automatic backup and device transfer are disabled; portable backup and restore are user initiated
 - Runtime notes:
-  - No RME PDF Scanner account, ads, analytics, tracking, backend, or persistent document library
-  - No direct `INTERNET` permission or direct camera permission request by RME PDF Scanner
-  - Google ML Kit may transmit encrypted technical diagnostics; this is not RME PDF Scanner analytics and does not include document content
+  - No RME PDF Scanner account, ads, analytics, tracking, proprietary backend, or cloud storage
+  - Neither the `INTERNET` nor `ACCESS_NETWORK_STATE` permission, and no direct camera permission request by RME PDF Scanner
+  - Google ML Kit scanner resources and optional OCR models may be delivered through Google Play services
+  - Google ML Kit may transmit encrypted technical diagnostics; this is not RME PDF Scanner analytics and, according to Google's documentation, does not include document images, text input, or recognition output
 
 ## Credential handling confirmation
 - Jira credentials are not stored by SynapseWorks Jira apps.
 - Sensitive credentials are not stored externally by SynapseWorks Jira apps.
 - Decision Register is read-only against Jira issue data.
 - Submit Guard does not require a SynapseWorks account and does not send form contents to SynapseWorks.
-- RME PDF Scanner does not operate a document backend or persistent document library.
+- RME PDF Scanner does not operate a document backend or cloud library; its persistent document library is local and app-private.
 
 ## Privacy policy
 - [SynapseWorks Privacy Policy](https://synapseworks.org/privacy/)
@@ -117,7 +120,7 @@ RME: PDF & Document Scanner is a privacy-first Android document scanner publicly
   - Synapse may create subtasks.
   - Decision Register does not write to Jira issue data.
   - Submit Guard confirms browser submissions locally and does not send form contents to SynapseWorks.
-  - RME PDF Scanner processes document content locally and uses user-selected Android destinations for saving or sharing.
+  - RME PDF Scanner processes document content locally, keeps explicitly saved library data in app-private storage, and uses user-selected Android destinations for export, backup, or sharing.
 
 ## Common issues
 - Teams review app pages in isolation and miss shared governance expectations.

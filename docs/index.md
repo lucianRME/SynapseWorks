@@ -40,9 +40,9 @@ Submit Guard is a Chrome extension for safer everyday web use. It is not a Jira 
 - Website: [Submit Guard product page](https://synapseworks.org/products/submit-guard/).
 
 ### Android Apps
-RME: PDF & Document Scanner is a privacy-first Android document scanner with offline OCR, searchable PDFs, local processing, and user-controlled export. It is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). Current version: **1.2.0**.
+RME: PDF & Document Scanner is a privacy-first Android document scanner with a private on-device library, multilingual OCR, searchable PDFs, safer-sharing tools, portable backup, and user-controlled export. It is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). Current stable version: **1.7.1**.
 
-- [RME PDF Scanner overview](rme-pdf-scanner/overview.md) - local scanning, OCR, and document export.
+- [RME PDF Scanner overview](rme-pdf-scanner/overview.md) - local scanning, library management, OCR, document tools, backup, and export.
 - Website: [RME PDF Scanner product page](https://synapseworks.org/rme-pdf-scanner/).
 
 ## Common issues
