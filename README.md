@@ -2,7 +2,7 @@
 
 This repository contains GitBook-ready Markdown documentation for the SynapseWorks product portfolio.
 
-SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday web use, and local Android document handling. Synapse and Decision Register are Jira/Atlassian products, Submit Guard is a Chrome extension, and RME: PDF & Document Scanner is a privacy-first Android document scanner with a private on-device library, multilingual OCR, document tools, and user-controlled export. RME is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor).
+SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday web use, and local Android document handling. Synapse and Decision Register are Jira/Atlassian products, Submit Guard is a Chrome extension, and RME: Private PDF Scanner is a privacy-first Android document scanner with a private on-device library, multilingual OCR, document tools, and user-controlled export. RME is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor).
 
 ## Documentation
 - [GitBook documentation site](https://synapseworks.gitbook.io/synapseworks-docs/)
@@ -10,7 +10,7 @@ SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday 
 - [Synapse Forge overview](docs/synapse/overview.md)
 - [Decision Register overview](docs/decision-register/overview.md)
 - [Submit Guard overview](docs/submit-guard/overview.md)
-- [RME PDF Scanner overview](docs/rme-pdf-scanner/overview.md)
+- [RME: Private PDF Scanner overview](docs/rme-pdf-scanner/overview.md)
 - [Trust & Security Overview](docs/common/trust-security.md)
 
 ## Publish with GitBook

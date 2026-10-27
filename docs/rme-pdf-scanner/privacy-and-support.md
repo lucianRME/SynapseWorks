@@ -1,4 +1,10 @@
-# RME PDF Scanner Privacy and Support
+---
+description: >-
+  Privacy, local storage, Google ML Kit resource delivery and diagnostics, and
+  support guidance for RME: Private PDF Scanner.
+---
+
+# RME: Private PDF Scanner — Privacy and Support
 
 ## Purpose
 

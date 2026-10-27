@@ -24,7 +24,7 @@ Provide a single trust and security overview for the SynapseWorks product portfo
 - [Synapse security and data](../synapse/security-data.md)
 - [Decision Register security and data](../decision-register/security-data.md)
 - [Submit Guard privacy](../submit-guard/privacy.md)
-- [RME PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)
+- [RME: Private PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)
 
 ## Privacy and compliance statement
 SynapseWorks provides privacy-first workflow tools with documented product-specific data handling.
@@ -84,7 +84,7 @@ Submit Guard is a Chrome extension. It is not a Jira app and does not run on Atl
   - Form contents are not stored by the extension
 
 ### Android Apps
-RME: PDF & Document Scanner is a privacy-first Android document scanner publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor).
+RME: Private PDF Scanner is a privacy-first Android document scanner publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor).
 
 ### RME PDF Scanner
 - Data processed locally:

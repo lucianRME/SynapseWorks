@@ -1,8 +1,14 @@
-# RME: PDF & Document Scanner
+---
+description: >-
+  RME: Private PDF Scanner for Android: availability, local document management,
+  on-device OCR, searchable PDFs, and privacy boundaries.
+---
 
-RME: PDF & Document Scanner is a privacy-first, local-first Android document scanner with a private document library, multilingual on-device OCR, searchable PDFs, safer-sharing tools, portable backup, and user-controlled export.
+# RME: Private PDF Scanner
 
-> PageHarbor is now RME: PDF & Document Scanner. The product and its privacy-first principles remain the same; only the public name has changed.
+RME: Private PDF Scanner is a privacy-first, local-first Android document scanner with a private document library, multilingual on-device OCR, searchable PDFs, safer-sharing tools, portable backup, and user-controlled export.
+
+> RME: Private PDF Scanner was previously known as PageHarbor and RME: PDF & Document Scanner. Its Android application ID remains unchanged for compatibility.
 
 ## Purpose
 
@@ -22,7 +28,7 @@ Explain what RME PDF Scanner does, its current availability, and its privacy-fir
 
 ## Current availability
 
-RME: PDF & Document Scanner is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). The current stable version is **1.7.1**. Version 1.7.1 includes the major 1.7.0 feature set and improves deletion and cleanup reliability for saved documents.
+RME: Private PDF Scanner is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). The current stable version is **1.7.1**. Version 1.7.1 includes the major 1.7.0 feature set and improves deletion and cleanup reliability for saved documents.
 
 ## Product page
 

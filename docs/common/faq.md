@@ -22,7 +22,7 @@ Answer common cross-product questions for SynapseWorks products.
 ### What product groups does SynapseWorks document?
 - Jira Apps: Synapse and Decision Register for Jira.
 - Browser Tools: Submit Guard Chrome extension.
-- Android Apps: RME: PDF & Document Scanner.
+- Android Apps: RME: Private PDF Scanner.
 
 ### Does Synapse replace Atlassian AI or Rovo?
 No. Synapse complements Atlassian AI/Rovo by enforcing consistent execution structure through subtasks and validation, instead of only providing suggestions.
@@ -45,7 +45,7 @@ No. Jira credentials are not stored by SynapseWorks Jira apps.
 No. Submit Guard is a Chrome extension for browser workflows.
 
 ### Is RME PDF Scanner publicly available on Google Play?
-Yes. RME: PDF & Document Scanner is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). The current stable version is **1.7.1**. The latest stable APK is also available from [GitHub Releases](https://github.com/lucianRME/rme-pdf-scanner/releases/latest). For signing-channel and backup guidance, see [Getting started](../rme-pdf-scanner/getting-started.md).
+Yes. RME: Private PDF Scanner is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). The current stable version is **1.7.1**. The latest stable APK is also available from [GitHub Releases](https://github.com/lucianRME/rme-pdf-scanner/releases/latest). For signing-channel and backup guidance, see [Getting started](../rme-pdf-scanner/getting-started.md).
 
 ### Does RME PDF Scanner upload documents to SynapseWorks?
 No. RME PDF Scanner processes document content on the device and has no proprietary document backend or cloud library. A user can explicitly save documents in an app-private local library. Files leave the app only when the user chooses an Android SAF destination or Android Sharesheet target.
@@ -68,4 +68,4 @@ No. Submit Guard is local-only, has no SynapseWorks backend, and does not send f
 - [Synapse security and data](../synapse/security-data.md)
 - [Decision Register security and data](../decision-register/security-data.md)
 - [Submit Guard privacy](../submit-guard/privacy.md)
-- [RME PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)
+- [RME: Private PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)

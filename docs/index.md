@@ -1,3 +1,9 @@
+---
+description: >-
+  Setup, workflows, privacy, and support for SynapseWorks products, including
+  RME: Private PDF Scanner for Android.
+---
+
 # SynapseWorks Documentation
 
 SynapseWorks builds privacy-first workflow tools for Jira teams, safer everyday web use, and local Android document handling.
@@ -40,10 +46,10 @@ Submit Guard is a Chrome extension for safer everyday web use. It is not a Jira 
 - Website: [Submit Guard product page](https://synapseworks.org/products/submit-guard/).
 
 ### Android Apps
-RME: PDF & Document Scanner is a privacy-first Android document scanner with a private on-device library, multilingual OCR, searchable PDFs, safer-sharing tools, portable backup, and user-controlled export. It is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). Current stable version: **1.7.1**.
+RME: Private PDF Scanner is a privacy-first Android document scanner with a private on-device library, multilingual OCR, searchable PDFs, safer-sharing tools, portable backup, and user-controlled export. It is publicly available on [Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor). Current stable version: **1.7.1**.
 
-- [RME PDF Scanner overview](rme-pdf-scanner/overview.md) - local scanning, library management, OCR, document tools, backup, and export.
-- Website: [RME PDF Scanner product page](https://synapseworks.org/rme-pdf-scanner/).
+- [RME: Private PDF Scanner overview](rme-pdf-scanner/overview.md) - local scanning, library management, OCR, document tools, backup, and export.
+- Website: [RME: Private PDF Scanner product page](https://synapseworks.org/rme-pdf-scanner/).
 
 ## Common issues
 - "I cannot find a feature in the app": confirm whether it belongs to Synapse, Decision Register, Submit Guard, or RME PDF Scanner documentation.
@@ -76,10 +82,10 @@ RME: PDF & Document Scanner is a privacy-first Android document scanner with a p
 - [Submit Guard troubleshooting](submit-guard/troubleshooting.md)
 
 ### Android Apps
-- [RME PDF Scanner overview](rme-pdf-scanner/overview.md)
-- [RME PDF Scanner getting started](rme-pdf-scanner/getting-started.md)
-- [RME PDF Scanner scanning and export workflow](rme-pdf-scanner/workflow.md)
-- [RME PDF Scanner privacy and support](rme-pdf-scanner/privacy-and-support.md)
+- [RME: Private PDF Scanner overview](rme-pdf-scanner/overview.md)
+- [RME: Private PDF Scanner getting started](rme-pdf-scanner/getting-started.md)
+- [RME: Private PDF Scanner scanning and export workflow](rme-pdf-scanner/workflow.md)
+- [RME: Private PDF Scanner privacy and support](rme-pdf-scanner/privacy-and-support.md)
 
 ### Common
 - [Trust and security overview](common/trust-security.md)
