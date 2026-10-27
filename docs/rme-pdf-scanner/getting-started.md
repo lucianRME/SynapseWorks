@@ -1,4 +1,10 @@
-# RME PDF Scanner Getting Started
+---
+description: >-
+  Install RME: Private PDF Scanner on Android and complete a first scan,
+  on-device OCR, export, or portable backup.
+---
+
+# RME: Private PDF Scanner — Getting Started
 
 ## Purpose
 
@@ -17,7 +23,7 @@ Install RME PDF Scanner and complete a first local scan, OCR, or export session.
 
 ## Install from Google Play
 
-Install [RME: PDF & Document Scanner from Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor), then open the app. The current stable version is **1.7.1**.
+Install [RME: Private PDF Scanner from Google Play](https://play.google.com/store/apps/details?id=org.synapseworks.pageharbor), then open the app. The current stable version is **1.7.1**.
 
 The Android application ID remains `org.synapseworks.pageharbor`; it identifies the existing app listing despite the new public name.
 

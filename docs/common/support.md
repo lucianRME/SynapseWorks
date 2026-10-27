@@ -51,4 +51,4 @@ Do not send passwords, backup passwords, tokens, session cookies, MFA codes, sen
 - [Documentation index](../index.md)
 - [FAQ](faq.md)
 - [Release notes](release-notes.md)
-- [RME PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)
+- [RME: Private PDF Scanner privacy and support](../rme-pdf-scanner/privacy-and-support.md)

@@ -76,4 +76,4 @@ Provide a standard format for documenting functional changes, fixes, and operati
 - [Documentation index](../index.md)
 - [Support](support.md)
 - [Submit Guard overview](../submit-guard/overview.md)
-- [RME PDF Scanner overview](../rme-pdf-scanner/overview.md)
+- [RME: Private PDF Scanner overview](../rme-pdf-scanner/overview.md)

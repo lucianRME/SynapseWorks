@@ -1,4 +1,10 @@
-# RME PDF Scanner Scanning and Export Workflow
+---
+description: >-
+  Scan, import, organize, process, and export documents locally with
+  RME: Private PDF Scanner, including searchable PDFs and Share-Safe copies.
+---
+
+# RME: Private PDF Scanner — Scanning and Export Workflow
 
 ## Purpose
 
